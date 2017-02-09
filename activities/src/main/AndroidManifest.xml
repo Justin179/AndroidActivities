@@ -22,6 +22,20 @@
             </intent-filter>
 
         </activity>
+
+        <activity android:name=".SecondActivity" android:label="Delta Activities">
+            <intent-filter>
+                <data android:scheme="http" android:host="deltaprogram.us"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".DetailActivity" android:label="Delta Activities"/>
+
     </application>
 
 </manifest>
